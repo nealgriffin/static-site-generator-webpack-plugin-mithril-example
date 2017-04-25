@@ -27,9 +27,9 @@ module.exports = {
   },
   plugins: [
     new webpack.ProvidePlugin({m: 'mithril'}),
-    // new HtmlWebpackPlugin({
-    //   title: 'MyTitle'
-    // }),
+    new HtmlWebpackPlugin({
+      title: 'MyTitle'
+    }),
     new StaticSiteGeneratorPlugin({
       entry: 'main',
       paths: [
