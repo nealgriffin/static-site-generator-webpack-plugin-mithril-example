@@ -1,6 +1,6 @@
 # Example using mithril with static-site-generator-webpack-plugin
 
-A repository showing how to use the [Mithril](https://mithril.js.org/) library alongside webpack and [static-site-generator-webpack-plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin) to create server-rendered, static pages based loosely off of this [issue](https://github.com/markdalgleish/static-site-generator-webpack-plugin/issues/90).
+A repository showing how to use the [Mithril](https://mithril.js.org/) library alongside webpack and [static-site-generator-webpack-plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin) to create server-rendered, static pages based loosely off of this [issue](https://github.com/markdalgleish/static-site-generator-webpack-plugin/issues/90). Using Mithril to generate the static pages is a little more challenging. I don't really know too much about Mithril, but it looks like it expects to be run from within the context of a browser, whereas here it is being run in the context of node's runtime. Here's what I did:
 
 
 ## Step 1 - Enable Mithril to render html as a string
